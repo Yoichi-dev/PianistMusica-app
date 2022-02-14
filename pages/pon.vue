@@ -109,6 +109,31 @@ export default {
     title: 'ぽんカウンター',
     meta: [
       {
+        name: 'twitter:title',
+        property: 'twitter:title',
+        content: 'ぽんカウンター',
+      },
+      {
+        name: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: 'https://pianistmusica.net/og.jpg?20220214',
+      },
+      {
+        name: 'twitter:creator',
+        property: 'twitter:creator',
+        content: '@PianistMusica',
+      },
+      {
+        name: 'twitter:site',
+        property: 'twitter:site',
+        content: '@PianistMusica',
+      },
+      {
         hid: 'og:site_name',
         property: 'og:site_name',
         content: 'ぽんカウンター | 画面タップで「ぽん」がカウントされます',
@@ -132,21 +157,6 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content: 'https://pianistmusica.net/og.jpg?20220214',
-      },
-      {
-        name: 'twitter:card',
-        property: 'twitter:card',
-        content: 'summary_large_image',
-      },
-      {
-        name: 'twitter:creator',
-        property: 'twitter:creator',
-        content: '@PianistMusica',
-      },
-      {
-        name: 'twitter:site',
-        property: 'twitter:site',
-        content: '@PianistMusica',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
