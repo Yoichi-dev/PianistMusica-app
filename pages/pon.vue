@@ -31,6 +31,61 @@
     <div class="poncounterimg">
       <div id="ponimg"></div>
     </div>
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/PONmujika_NonLoop.gif')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/0.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/1.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/2.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/3.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/4.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/5.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/6.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/7.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/8.png')"
+    />
+    <img
+      class="hid"
+      width="1px"
+      :src="require('@/assets/image/counter/9.png')"
+    />
   </div>
 </template>
 
@@ -162,6 +217,10 @@ body {
 #ponArea {
   height: 100vh;
   width: 100vw;
+}
+
+.hid {
+  display: none;
 }
 
 .fadeout {
