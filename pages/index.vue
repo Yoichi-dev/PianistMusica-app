@@ -1,5 +1,8 @@
 <template>
-  <div>PianistMusica</div>
+  <div>
+    <p>PianistMusica</p>
+    <button @click="$router.push('/pon')">ぽんカウンター</button>
+  </div>
 </template>
 
 <script>

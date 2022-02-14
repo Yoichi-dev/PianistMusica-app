@@ -66,7 +66,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://pianistmusica.com',
+        content: 'https://pianistmusica.net',
       },
       {
         hid: 'description',
@@ -76,7 +76,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://pianistmusica.com/og.jpg?20220214',
+        content: 'https://pianistmusica.net/og.jpg?20220214',
       },
       {
         name: 'twitter:card',
